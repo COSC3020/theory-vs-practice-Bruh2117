@@ -12,7 +12,7 @@
   of search in a binary search tree, how long would you guess finding the same
   element in a search tree with 10,000 elements takes? Explain your reasoning.
 
-  - Since the asymptotic complexity of a binary search tree is $O(log_{2}(n))$ for $n$ elements, we can solve for constant $c$ that's multiplied with the function $f(n)$ from the asymptotic notation. To do this, from the first search specified, we can divide 5 by $log_{2}(1000)$ to get get our constant factor $c$, which is approximately $0.502$. With that, we can now calculate the runtime for the case of searching for the same element in a 10,000 element tree, which will $c*log_{2}(n) = 0.502*log_{2}(10,000) =$ 6.67 seconds. 
+  - Since the asymptotic complexity of a binary search tree is $O(log_{2}(n))$ for $n$ elements, we can solve for constant $c$ that's multiplied with the function $f(n)$ from the asymptotic notation. To do this, from the first search specified, we can divide 5 by $log_{2}(1000)$ to get get our constant factor $c$, which is approximately 0.502. With that, we can now calculate the runtime for the case of searching for the same element in a 10,000 element tree, which will $c\times log_{2}(n) = 0.502\times log_{2}(10,000) =$ 6.67 seconds. 
 
 - You measure the time with 10,000 elements and it takes 100 seconds! List 3
   reasons why this could be the case, given that reasoning with the asymptotic
